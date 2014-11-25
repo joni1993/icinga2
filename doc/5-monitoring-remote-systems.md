@@ -15,7 +15,7 @@ monitoring and high-availability, please continue reading in
 
 > **Tip**
 >
-> Don't panic - there are CLI commands available, including setup wizards for easy installation
+> Don't panic - there are CLI commands available, inclmauding setup wizards for easy installation
 > with SSL certificates.
 > If you prefer to use your own CA (for example Puppet) you can do that as well.
 
@@ -228,8 +228,6 @@ for CSR Auto-Signing
 
 The command must be run as root, all Icinga 2 specific files will be updated to the icinga
 user the daemon is running as (certificate files for example).
-
-Make sure to answer the first question with `n` (no).
 
 
     # icinga2 node wizard
