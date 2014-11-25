@@ -84,6 +84,7 @@ Group:        Applications/System
 PreReq:        permissions
 Provides:      monitoring_daemon
 Recommends:    monitoring-plugins
+BuildRequires: libyajl-devel >= 2
 %endif
 BuildRequires: openssl-devel
 BuildRequires: gcc-c++
